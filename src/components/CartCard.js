@@ -3,7 +3,7 @@ import Logo from '../assets/images/1001.png'
 import { useCart } from "../context/CardContext";
 
 export const CartCard = ({product}) => {
-  const {name, price, image} = product;
+  const {name, price} = product;
   const {removeFromCart} = useCart();
 
   const handleRemove=() =>{
