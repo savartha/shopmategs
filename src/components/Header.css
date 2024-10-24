@@ -1,0 +1,42 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+    border-color: 1px solid #EEEEEE;
+    font-size: 18;
+    padding: 0px 1px;
+
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    height: 40px;
+}
+
+.navigation .link{
+    padding: 10px;
+}
+
+.navigation .link.active{
+    background-color:#EEEEEE;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.items{
+    font-weight: 500;
+    min-width: 70px;
+  }
+  
+  @media screen and (max-width: 680px) {
+    .navigation{
+        display: none;
+    }
+  }
